@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src="images/visitoria_visitoria-base.png" alt="visitoria"></a>
+        <div class="nav-box">
+        <a href="index.html">Reizen</a>
+        <a href="index.html">Plannen</a>
+        <a href="index.html">Deals</a>
+        <a href="index.html">Uitgelicht</a>
+        <a class="contact-nav" href="contacten.html">Contact</a>
+    </div>
+    </nav>
+<header class="h-contacts">
+    <h1>Contact</h1>
+     <p>
+        Problemen of vragen met uw reis, planning of activiteiten?
+        Stel ze gerust hier! We zullen ons best doen om uw zo gerust 
+        mogelijk te maken zodat uw reis 100% een succes wordt.<br>
+        <br>
+        U kunt een antwoord verwachten in ongeveeer 1 tot 2 dagen.
+    </p>
+    </header>
+
+    <main>
+    <section>
+        <div class="center-container">
+            <section class="contacts-h2">
+                <h2>Contactformulier</h2>
+            </section>
+        <form>
+        <div class="name">
+            <div class="form-box">
+                <label class="bold" for="name">Voornaam</label>
+                <input type="text" name="name" id="name" placeholder="Voornaam" required class="input-box">
+            </div>
+
+            <div class="form-box">
+                <label class="bold" for="name">Achternaam</label>
+                <input type="text" name="name" id="name" placeholder="Achternaam" required class="input-box">
+            </div>
+        </div>
+            <div class="form-box">
+                <label class="bold" for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required class="input-long">
+            </div>
+        <div class="birth-city">
+            <div class="form-box">
+                <label class="bold" for="city">Woonplaats</label>
+                <input type="text" name="city" id="city" placeholder="Woonplaats" required class="input-box">
+            </div>
+
+            <div class="form-box">
+                <label class="bold" for="birthdate">Geboortedatum</label>
+                <input type="date" name="birthdate" id="birthdate" required class="input-box">
+            </div>
+        </div>
+            <div class="form-box">
+                <label for="send-to" class="bold" required>Onderwerp</label>
+                <select name="send-to" id="send-to">
+                    <option value="" disabled selected>Kies een onderwerp van het bericht...</option>
+                    <option>Probleem met het systeem</option>
+                    <option>Betaling problemen</option>
+                    <option>Vraag over de reis</option>
+                    <option>Vraag over het hotel</option>
+                    <option>Vraag rondom de activiteiten</option>
+                    <option>Algemene vragen</option>
+                    <option>Algemene problemen</option>
+                </select>
+            </div>
+
+                <div class="form-box">
+                <label class="bold" for="question">Bericht</label>
+                <textarea type="text" name="question" id="question" class="question-box" required></textarea>
+                </div>
+
+                <label class="bold" for="newspaper">Inschrijven voor nieuwsbrief? (optioneel)</label> 
+                <div class="category-box">
+                        <div>
+                            <input type="radio" id="Ja" name="newspaper" value="Ja">
+                            <label for="Ja">Ja</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Nee" name="newspaper" value="Nee">
+                            <label for="Nee">Nee</label>
+                        </div>
+                </div>
+
+                <div id="voorwaarden">
+                    <input type="checkbox" id="voorwaarden" name="voorwaarden" value="voorwaarden" required>
+                    <label for="voorwaarden">Ik ga akkoord met de algemene voorwaarden</label>
+                </div>
+                <button type="submit">Verzenden</button>
+            </div>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-box">
+            <div class="footer-extra">
+                <img  src="images/visitoria_Visitoria-white.png" alt="visitoria">
+                <p>Copyright 2024 Visitoria</p>
+                <div class="social-media">
+                    <a target="_blank" href="https://www.instagram.com/"><img src="images/visitoria_instagram.png" alt="instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/?locale=nl_NL"><img src="images/visitoria_facebook.png" alt="facebook"></a>
+                    <a target="_blank" href="https://www.snapchat.com/?original_referrer=www.google.nl"><img src="images/visitoria_snapchat.png" alt="snapchat"></a>
+                </div>
+            </div>
+            <nav>
+                <a target="_blank" href="#">Privacyverklaring</a>
+                <a target="_blank" href="#">Algemene voorwaarden</a>
+                <a target="_blank" href="#">Cookiebeleid</a>
+                <a href="contacten.html">Contact</a>
+            </nav>
+        </div>
+        </footer>
+</body>
